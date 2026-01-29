@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" class="caad-logo-svg">
+  <!-- CAAD Logo - Exact Recreation -->
+  
+  <!-- Text: "caad" - Bold rounded lowercase -->
+  <g class="logo-text">
+    <!-- Letter 'c' -->
+    <path class="letter letter-c" 
+          d="M8 45c0-18.8 15.2-34 34-34 11.5 0 21.6 5.7 27.8 14.4l-10 7.6c-4.2-5.8-11-9.6-17.8-9.6-13.2 0-24 10.8-24 21.6s10.8 21.6 24 21.6c6.8 0 13.6-3.8 17.8-9.6l10 7.6C63.6 73.3 53.5 79 42 79 23.2 79 8 63.8 8 45z" 
+          fill="#1B3A5F"/>
+    
+    <!-- Letter 'a' (first) -->
+    <path class="letter letter-a1" 
+          d="M108 79V52c0-12.4-10-22.4-22.4-22.4h-2v-12h2c19 0 34.4 15.4 34.4 34.4v27h-12zM85.6 79c-12.4 0-22.4-10-22.4-22.4s10-22.4 22.4-22.4S108 44.2 108 56.6 98 79 85.6 79zm0-32.8c-5.7 0-10.4 4.7-10.4 10.4s4.7 10.4 10.4 10.4S96 62.3 96 56.6s-4.7-10.4-10.4-10.4z" 
+          fill="#1B3A5F"/>
+    
+    <!-- Letter 'a' (second) -->
+    <path class="letter letter-a2" 
+          d="M168 79V52c0-12.4-10-22.4-22.4-22.4h-2v-12h2c19 0 34.4 15.4 34.4 34.4v27h-12zM145.6 79c-12.4 0-22.4-10-22.4-22.4s10-22.4 22.4-22.4S168 44.2 168 56.6 158 79 145.6 79zm0-32.8c-5.7 0-10.4 4.7-10.4 10.4s4.7 10.4 10.4 10.4S156 62.3 156 56.6s-4.7-10.4-10.4-10.4z" 
+          fill="#1B3A5F"/>
+    
+    <!-- Letter 'd' -->
+    <path class="letter letter-d" 
+          d="M205.6 79c-12.4 0-22.4-10-22.4-22.4s10-22.4 22.4-22.4S228 44.2 228 56.6 218 79 205.6 79zm0-32.8c-5.7 0-10.4 4.7-10.4 10.4s4.7 10.4 10.4 10.4S216 62.3 216 56.6s-4.7-10.4-10.4-10.4zM228 79V11h12v68h-12z" 
+          fill="#1B3A5F"/>
+  </g>
+  
+  <!-- Grid Icon - Exact Match -->
+  <g class="logo-grid" transform="translate(260, 11)">
+    <!-- Outer frame -->
+    <rect class="grid-frame" x="0" y="0" width="68" height="68" rx="4"
+          fill="none" stroke="#1B3A5F" stroke-width="5"/>
+    
+    <!-- Cross dividers -->
+    <line class="grid-line grid-h" x1="0" y1="34" x2="68" y2="34" 
+          stroke="#1B3A5F" stroke-width="5"/>
+    <line class="grid-line grid-v" x1="34" y1="0" x2="34" y2="68" 
+          stroke="#1B3A5F" stroke-width="5"/>
+    
+    <!-- Inner squares - Top Left (blue filled) -->
+    <rect class="grid-inner grid-inner-1" x="8" y="8" width="18" height="18" rx="2"
+          fill="#1B3A5F"/>
+    
+    <!-- Inner squares - Top Right (outline only) -->
+    <rect class="grid-inner grid-inner-2" x="42" y="8" width="18" height="18" rx="2"
+          fill="none" stroke="#1B3A5F" stroke-width="3"/>
+    
+    <!-- Inner squares - Bottom Left (outline only) -->
+    <rect class="grid-inner grid-inner-3" x="8" y="42" width="18" height="18" rx="2"
+          fill="none" stroke="#1B3A5F" stroke-width="3"/>
+    
+    <!-- Inner squares - Bottom Right (blue filled) -->
+    <rect class="grid-inner grid-inner-4" x="42" y="42" width="18" height="18" rx="2"
+          fill="#1B3A5F"/>
+  </g>
+</svg>
