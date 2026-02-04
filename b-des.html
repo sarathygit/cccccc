@@ -17,6 +17,88 @@
 </head>
 
 <body>
+    <!-- Premium Architectural Loader -->
+    <div class="arch-loader-overlay" id="archLoader">
+        <div class="iso-city">
+            <!-- 9 Blocks for a 3x3 Grid -->
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+            <div class="iso-block">
+                <div class="side front"></div>
+                <div class="side back"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+            </div>
+        </div>
+        <div class="loader-text-container">
+            <h2 class="loader-title">Building Dreams</h2>
+            <p class="loader-subtitle">Chennai Academy of Architecture & Design</p>
+        </div>
+    </div>
 
     <!-- Navigation -->
     <header class="navbar scrolled" id="navbar">
@@ -37,8 +119,14 @@
                         </svg>
                     </a>
                     <div class="dropdown-menu">
-                        <a href="b-arch.html" class="dropdown-item">B.Arch Architecture</a>
-                        <a href="b-des.html" class="dropdown-item active">B.Des Interior Design</a>
+                        <a href="b-arch.html" class="dropdown-item">B.Arch. (5 Years)</a>
+                        <a href="b-des.html" class="dropdown-item active">B.Des. Interior Design (4 Years)</a>
+                        <a href="courses.html" class="dropdown-item">B.Des. Communication Design (4 Years)</a>
+                        <a href="courses.html" class="dropdown-item">B.Des. Industrial Design (4 Years)</a>
+                        <a href="courses.html" class="dropdown-item">B.Des. Fashion Design (4 Years)</a>
+                        <a href="courses.html" class="dropdown-item">D.Arch. Interior Design & Decoration (3 Years)</a>
+                        <a href="courses.html" class="dropdown-item">D.Des. Interior Design (4 Years)</a>
+                        <a href="courses.html" class="dropdown-item">M.S. (1 Year)</a>
                     </div>
                 </div>
                 <a href="admissions.html" class="nav-link">Admissions</a>
@@ -306,6 +394,20 @@
         });
 
 
+    </script>
+    <script>
+        // Remove Loader on Page Load
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('archLoader');
+            if (loader) {
+                setTimeout(() => {
+                    loader.classList.add('fade-out');
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                    }, 600);
+                }, 1000); // Minimum view time
+            }
+        });
     </script>
 </body>
 
